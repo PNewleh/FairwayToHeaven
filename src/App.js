@@ -5,12 +5,13 @@ import Home from "./pages/Home";
 import Players from "./pages/Players";
 import Scores from "./pages/Scores";
 import NavBar from "./nav";
+import Golfer from "./images/golfer.png"
 
 function App() {
   return (
     <div className='content'>
       <header>
-        <h1>Fairway To Heaven</h1>
+        <img className='golfer' src={Golfer}></img><h1>Fairway To Heaven</h1>
       </header>
     
     <div className="container">
