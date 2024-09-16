@@ -1,0 +1,67 @@
+
+
+.players {
+  margin-left: 1rem;
+}
+
+.players img {
+  width: 5%;
+  height: auto;
+  transform: rotate(-90deg);
+  display: inline;
+}
+
+.player {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.top-scorers {
+  margin-left: 1rem;
+}
+
+.top-scorers div {
+  line-height: 0.5em;
+}
+
+.nav {
+    background-color: #15924d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: .25rem;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+    align-items: center;
+  }
+  
+  .nav li.active {
+    background-color: #fff;
+    color:#15924d;
+  }
+  
+  .nav li:hover {
+    background-color: #fff;
+    color:#15924d;
+  }

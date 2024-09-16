@@ -1,0 +1,14 @@
+body {
+  background: url('./images/golfbackground.jpg') repeat;;
+}
+
+.content {
+  background-color: white;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: white;
+}
