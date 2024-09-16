@@ -21,7 +21,7 @@ export default function Home() {
         
 
         
-        <h2>Top Scorers:</h2>
+        <h2>Top Scorers This Week:</h2>
         <div className="top-scorers">
             <div className="game">
                 <h2>Block Party</h2>

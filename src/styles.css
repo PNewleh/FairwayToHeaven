@@ -73,6 +73,36 @@
   text-align: left;
 }
 
+.scores-header {
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.best-scores {
+  display: flex;
+  margin-left: 2rem;
+  justify-content: space-around;
+}
+
+.scores {
+  display: flex;
+  align-items: center;
+  line-height: .15rem;
+}
+
+.scores h4 {
+  margin-right: .25rem;
+}
+
+.player-scores {
+  margin-bottom: 3rem;
+  line-height: .5rem;
+}
+
+.player-scores h2 {
+  text-decoration: underline;
+}
+
 .nav {
     background-color: #15924d;
     color: white;
@@ -133,5 +163,12 @@
 
     .players {
       flex-flow: column wrap;
+    }
+
+    .best-scores {
+      display: flex;
+      margin-left: 2rem;
+      justify-content: space-around;
+      flex-flow: column nowrap;
     }
   }
