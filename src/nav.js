@@ -1,11 +1,12 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
 import "./styles.css"
+import HomeIcon from '@mui/icons-material/Home';
 
 export default function NavBar() {
     return (
         <nav className="nav">
             <Link to="/" className="site-title">
-                Fairway To Heaven
+                <HomeIcon color="white" fontSize="large"/>
             </Link>
             <ul>
                 <CustomLink to="/players">Players</CustomLink>

@@ -4,11 +4,12 @@ body {
 
 .content {
   background-color: white;
-  height: 100vh;
+  height: 100%;
   width: 80%;
   margin: 0 auto;
 }
 
 header {
   background-color: white;
+  text-align: center;
 }

@@ -8,28 +8,34 @@ import danny from "../images/danny.jpg";
 
 export default function Players() {
     return (
-        <div>
+        <div className="players-page">
             <h1>Players</h1>
 
             <div className="players">
-                <div className="player">
-                    <img src={danny}/><h3>Danny Cuahizo</h3>
+                <div className="group-1">
+                    <div className="player">
+                        <img src={danny}/><h3>Danny Cuahizo</h3>
+                    </div>
+                    <div className="player">
+                        <img src={cami}/><h3>Camila Garbiras</h3>
+                    </div>
+                    <div className="player">
+                        <img src={tessa}/><h3>Tessa Griffin</h3>
+                    </div> 
                 </div>
-                <div className="player">
-                    <img src={cami}/><h3>Camila Garbiras</h3>
+                
+                <div className="group-2">
+                    <div className="player">
+                        <img src={cheyenne}/><h3>Cheyenne Mercier</h3>
+                    </div>
+                    <div className="player">
+                        <img src={chris}/><h3>Chris Merz</h3>
+                    </div>
+                    <div className="player">
+                        <img src={collin}/><h3>Collin Statz</h3>
+                    </div> 
                 </div>
-                <div className="player">
-                    <img src={tessa}/><h3>Tessa Griffin</h3>
-                </div>
-                <div className="player">
-                    <img src={cheyenne}/><h3>Cheyenne Mercier</h3>
-                </div>
-                <div className="player">
-                    <img src={chris}/><h3>Chris Merz</h3>
-                </div>
-                <div className="player">
-                    <img src={collin}/><h3>Collin Statz</h3>
-                </div>
+                
                 
             </div>
         </div>

@@ -1,27 +1,76 @@
-
-
-.players {
+.home {
   margin-left: 1rem;
 }
 
+.home-info {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap
+}
+
+.home h2 {
+  text-decoration: underline;
+}
+
+.top-scorers h2 {
+  text-decoration: none;
+}
+
+.schedule-info-indiv h1 {
+  text-decoration: underline;
+}
+
+.schedule-info-indiv h2 {
+  text-decoration: none;
+}
+
+.weekly-top {
+  display: flex;
+  align-items: center;
+  gap: .25rem;
+}
+
+.players-page {
+  margin-left: 1rem;
+}
+
+.players {
+  margin-left: 1rem;
+  display: flex;
+  line-height: 3rem;
+  flex-flow: row nowrap;
+}
+
 .players img {
-  width: 5%;
-  height: auto;
+  width: 20%;
+  height: 20%;
   transform: rotate(-90deg);
-  display: inline;
+  margin-right: 1rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
 }
 
 .player {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
 }
 
 .top-scorers {
   margin-left: 1rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 
 .top-scorers div {
   line-height: 0.5em;
+}
+
+.game {
+  margin: 1rem;
+  text-align: left;
 }
 
 .nav {
@@ -31,7 +80,7 @@
     justify-content: space-between;
     align-items: stretch;
     gap: 2rem;
-    padding: 0 1rem;
+    padding: .25rem;
   }
   
   .site-title {
@@ -64,4 +113,25 @@
   .nav li:hover {
     background-color: #fff;
     color:#15924d;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .top-scorers {
+      justify-content: start;
+      
+    }
+
+    .players img {
+      width: 50px;
+      height: 50px;
+      transform: rotate(-90deg);
+      margin-right: 1rem;
+      border-radius: 50%;
+      margin-bottom: 2rem;
+    }
+
+    .players {
+      flex-flow: column wrap;
+    }
   }
